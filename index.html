@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Psychoventis - Paweł Łata</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-background text-on-surface selection:bg-secondary-fixed">
+    
+    <main class="pt-20">
+      <!-- Hero Section -->
+      <section class="relative min-h-[90vh] flex items-center overflow-hidden px-6 lg:px-12">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          <div class="lg:col-span-7 z-10">
+            <span class="inline-block text-secondary font-bold tracking-[0.05em] uppercase mb-4 text-sm">mgr Paweł Łata • Twój Psycholog</span>
+            <h1 class="text-5xl lg:text-7xl font-extrabold text-on-surface leading-[1.1] mb-8 tracking-tighter">
+              Profesjonalna <br/> <span class="text-primary italic">pomoc psychologiczna</span> i terapia
+            </h1>
+            <p class="text-body-lg text-on-surface-variant max-w-xl mb-10 leading-relaxed">
+              PsychoVentis to przestrzeń, w której wieloletnia praktyka psychologiczna łączy się z indywidualnym podejściem. Pomagam nawigować przez życiowe wyzwania, wspierając w budowaniu powrotnej równowagi emocjonalnej i dogłębnym zrozumieniu siebie.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4">
+              <a href="umow-wizyte.html" class="bg-primary-container text-on-primary-container px-8 py-4 rounded-full font-bold text-lg editorial-shadow hover:scale-105 transition-transform text-center">
+                Rozpocznij podróż
+              </a>
+              <a href="oferta.html" class="border border-outline-variant/20 px-8 py-4 rounded-full font-bold text-lg text-primary hover:bg-surface-container-low transition-colors text-center">
+                Zobacz usługi
+              </a>
+            </div>
+            <!-- SOS Emergency Alert -->
+            <div class="mt-8 inline-block animate-[pulse_2s_ease-in-out_infinite]">
+              <a href="tel:+48692125793" class="inline-flex items-center justify-center gap-3 bg-error text-on-error px-8 py-4 rounded-full font-bold shadow-lg hover:opacity-90 transition-all text-center">
+                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">emergency</span>
+                PILNA INTERWENCJA SOS? ZADZWOŃ: 692 125 793
+              </a>
+            </div>
+          </div>
+          <div class="lg:col-span-5 relative">
+            <div class="aspect-[4/5] rounded-[2rem] overflow-hidden editorial-shadow relative z-10">
+              <img alt="Paweł Łata" class="w-full h-full object-cover" src="/assets/pawel.jpg"/>
+            </div>
+            <!-- Decorative Background Shapes -->
+            <div class="absolute -top-12 -right-12 w-64 h-64 bg-secondary-fixed rounded-full blur-3xl opacity-30 -z-0"></div>
+            <div class="absolute -bottom-12 -left-12 w-80 h-80 bg-tertiary-fixed rounded-full blur-3xl opacity-20 -z-0"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Trust & Philosophy (Asymmetrical Layout) -->
+      <section class="py-24 bg-surface-container-low">
+        <div class="max-w-7xl mx-auto px-6">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+            <div class="space-y-8">
+              <h2 class="text-4xl font-bold tracking-tight">Główna Filozofia</h2>
+              <div class="w-20 h-1.5 bg-tertiary rounded-full"></div>
+              <p class="text-body-lg text-on-surface-variant italic leading-relaxed">
+                "Wierzę, że każdy człowiek ma w sobie potencjał do głębokiej zmiany. Moją rolą jest pomóc ten potencjał odkryć, nazwać i uruchomić – z bezwarunkowym szacunkiem, cierpliwością i szczerą uważnością na drugiego człowieka."
+              </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-12">
+              <div class="bg-surface-container-lowest p-8 rounded-xl editorial-shadow mt-0">
+                <span class="material-symbols-outlined text-primary text-4xl mb-4">gpp_good</span>
+                <h3 class="font-bold text-xl mb-2">Bezpieczeństwo i Szacunek</h3>
+                <p class="text-on-surface-variant text-sm">Relacja wolna od ocen, uciążliwej presji i pośpiechu. Każdy z nas ma prawo do swojego własnego tempa oraz sposobu przeżywania życiowych trudności.</p>
+              </div>
+              <div class="bg-surface-container-lowest p-8 rounded-xl editorial-shadow mt-8">
+                <span class="material-symbols-outlined text-secondary text-4xl mb-4">visibility</span>
+                <h3 class="font-bold text-xl mb-2">Perspektywa Całościowa</h3>
+                <p class="text-on-surface-variant text-sm">Patrzę na człowieka z szerszej perspektywy jego umysłu, ciała, relacji i wyznawanych wartości. To pozwala trwalej zdefiniować źródło problemu.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services (Bento Grid Style) -->
+      <section class="py-24 px-6">
+        <div class="max-w-7xl mx-auto">
+          <div class="mb-16">
+            <span class="text-label text-primary font-bold tracking-widest uppercase">Obszary Wsparcia</span>
+            <h2 class="text-4xl font-extrabold mt-2">Jak możemy współpracować</h2>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-6 h-full">
+            <!-- Individual Therapy -->
+            <div class="md:col-span-8 bg-surface-container-lowest rounded-[2rem] p-10 editorial-shadow flex flex-col justify-between group overflow-hidden relative">
+              <div class="relative z-10">
+                <h3 class="text-3xl font-bold mb-4">Psychoterapia Indywidualna</h3>
+                <p class="text-on-surface-variant max-w-md leading-relaxed">Głębokie spotkania 1 na 1 skupione na lęku, depresji i radzeniu sobie z kryzysem personalnym.</p>
+              </div>
+              <div class="mt-8 relative z-10">
+                <a href="oferta.html" class="text-primary font-bold flex items-center gap-2 group-hover:translate-x-2 transition-transform">
+                  Odkryj szczegóły sesji <span class="material-symbols-outlined">arrow_forward</span>
+                </a>
+              </div>
+              <div class="absolute right-0 bottom-0 opacity-10 translate-y-1/4 translate-x-1/4">
+                <span class="material-symbols-outlined text-[15rem]">self_improvement</span>
+              </div>
+            </div>
+            <!-- Couples -->
+            <div class="md:col-span-4 bg-secondary-fixed/30 rounded-[2rem] p-10 flex flex-col justify-between border border-secondary-fixed">
+              <div>
+                <span class="material-symbols-outlined text-secondary text-4xl mb-6">diversity_2</span>
+                <h3 class="text-2xl font-bold mb-4">Terapia Par</h3>
+                <p class="text-on-surface-variant text-sm leading-relaxed">Odbudowa komunikacji i emocjonalnej intymności w związku.</p>
+              </div>
+              <a href="oferta.html" class="bg-surface-container-lowest text-on-surface px-6 py-3 rounded-full font-bold mt-8 shadow-sm text-center inline-block">Dowiedz się więcej</a>
+            </div>
+            <!-- Online -->
+            <div class="md:col-span-4 bg-tertiary-fixed/30 rounded-[2rem] p-10 flex flex-col justify-between border border-tertiary-fixed">
+              <div>
+                <span class="material-symbols-outlined text-tertiary text-4xl mb-6">videocam</span>
+                <h3 class="text-2xl font-bold mb-4">Sesje Sieciowe</h3>
+                <p class="text-on-surface-variant text-sm leading-relaxed">Elastyczna terapia z wygodnego miejsca w domu, z dowolnego miejsca na Ziemi.</p>
+              </div>
+              <a href="umow-wizyte.html" class="bg-surface-container-lowest text-on-surface px-6 py-3 rounded-full font-bold mt-8 shadow-sm text-center inline-block">Zarezerwuj online</a>
+            </div>
+            <!-- Corporate -->
+            <div class="md:col-span-8 bg-surface-container-high rounded-[2rem] p-10 flex flex-col md:flex-row gap-8 items-center">
+              <div class="flex-1">
+                <h3 class="text-2xl font-bold mb-4">Warsztaty i Szkolenia</h3>
+                <p class="text-on-surface-variant leading-relaxed mb-6">Edukacja z zakresu zdrowia psychicznego dla zespołów, skupiająca się na zapobieganiu wypaleniu i inteligencji emocjonalnej.</p>
+                <a href="szkolenia.html" class="text-primary font-bold flex items-center gap-2">Zobacz ofertę szkoleń <span class="material-symbols-outlined">description</span></a>
+              </div>
+              <div class="w-full md:w-64 h-48 rounded-xl overflow-hidden shadow-lg">
+                <img alt="Training" class="w-full h-full object-cover" data-alt="A small group of people in a bright modern workshop setting" src="/assets/szkolenia_graphic.png"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonial Section (Editorial Style) -->
+      <section class="py-24 bg-surface">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+          <span class="material-symbols-outlined text-secondary-fixed-dim text-7xl mb-8">format_quote</span>
+          <p class="text-3xl font-light leading-relaxed text-on-surface mb-12">
+            "Praca z Pawłem była dla mnie czymś uwalniającym. Zapewnia on równowagę pomiędzy profesjonalizmem a prawdziwym ciepłem, co umożliwiło mi wyjście z najgorszych schematów."
+          </p>
+          <div class="flex items-center justify-center gap-4">
+            <div class="w-12 h-12 rounded-full bg-primary-fixed flex items-center justify-center">
+              <span class="text-primary font-bold">M.K.</span>
+            </div>
+            <div class="text-left">
+              <p class="font-bold">Klient</p>
+              <p class="text-xs text-on-surface-variant uppercase tracking-widest">Terapia Indywidualna, 12 Miesięcy</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="py-24 px-6 border-b border-surface-container-highest">
+        <div class="max-w-7xl mx-auto bg-primary rounded-[3rem] p-12 lg:p-20 text-center text-on-primary relative overflow-hidden">
+          <div class="relative z-10">
+            <h2 class="text-4xl lg:text-5xl font-extrabold mb-8">Gotowy zrobić pierwszy krok?</h2>
+            <p class="text-primary-fixed text-lg max-w-2xl mx-auto mb-12 opacity-90">
+              Twoja wizja kompleksowej, zrozumiałej pomocy psychologicznej zaczyna się od jednej rozmowy. Zarezerwuj wizytę.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
+              <a href="umow-wizyte.html" class="bg-surface-container-lowest text-primary px-10 py-5 rounded-full font-bold text-lg hover:scale-105 transition-transform shadow-xl">
+                Umów wizytę
+              </a>
+              <a class="flex items-center gap-2 text-on-primary font-bold hover:underline decoration-2 underline-offset-8" href="tel:+48692125793">
+                <span class="material-symbols-outlined">call</span>
+                Zadzwoń 692 125 793
+              </a>
+            </div>
+          </div>
+          <!-- Abstract Gradient Background -->
+          <div class="absolute inset-0 bg-gradient-to-br from-primary via-[#0a4d8a] to-primary opacity-50"></div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
