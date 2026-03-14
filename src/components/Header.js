@@ -4,7 +4,7 @@ export function renderHeader() {
     <nav class="fixed top-0 left-0 right-0 z-50 glass-nav border-b border-outline-variant/20">
       <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <div class="flex items-center gap-4">
-          <img alt="Psychoventis Logo" class="h-16 w-auto object-contain rounded-lg" src="/assets/logo.jpg"/>
+          <img alt="Psychoventis Logo" class="h-16 w-auto object-contain rounded-lg" src="./assets/logo.jpg"/>
           <span class="text-2xl md:text-3xl font-black tracking-tighter text-primary uppercase" style="font-family: 'Montserrat', sans-serif;">Psychoventis</span>
         </div>
         <div class="hidden md:flex items-center gap-8">
